@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h1>Diabetes Prediction Form</h1>
+
+    <form id="prediction-form">
+        <!-- ... all your div, label, and input elements are here ... -->
+        
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="Age" placeholder="e.g., 50" required>
+        </div>
+        
+        <!-- Add the button here, inside the form -->
+        <div>
+            <script src="script.js"></script>
+            <!-- 
+                The <button> element creates a clickable button.
+                The type="submit" attribute gives it a special behavior: when clicked,
+                it will attempt to submit the form data. This is the event we will
+                listen for later with JavaScript.
+            -->
+            <button type="submit">Predict</button>
+        </div>
+
+    </form>
+</body>
+</html>
